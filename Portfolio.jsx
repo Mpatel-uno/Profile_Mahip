@@ -164,7 +164,6 @@ export default function Portfolio() {
       <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
         <div className="nav__inner">
           <a className="nav__brand" onClick={() => scrollTo("home")}>
-            <span className="nav__monogram">MP</span>
             <span className="nav__name">Mahip Patel</span>
           </a>
           <nav className={`nav__links ${navOpen ? "is-open" : ""}`}>
@@ -220,7 +219,7 @@ export default function Portfolio() {
                 e.currentTarget.style.display = "none";
                 e.currentTarget.parentNode.classList.add("photo-frame--fallback");
               }} />
-              <div className="photo-frame__fallback">MP</div>
+              {/* <div className="photo-frame__fallback">MP</div> */}
             </div>
           </div>
         </div>
@@ -1137,7 +1136,7 @@ body { margin: 0; }
 @media (max-width: 520px) {
   .container { padding: 0 18px; }
   .nav__inner { padding: 12px 18px; }
-  .nav__name { display: none; }
+  .nav__name { display: 15px; }
   .timeline__head { flex-direction: column; align-items: flex-start; gap: 4px; }
   .contact__list li { grid-template-columns: 1fr; gap: 4px; }
   .about__stats { grid-template-columns: repeat(3, 1fr); gap: 10px; }
