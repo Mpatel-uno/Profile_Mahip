@@ -113,7 +113,7 @@
       );
     }
 
-    function Portfolio() {
+    function portfolio() {
       const [navOpen, setNavOpen] = useState(false);
       const [scrolled, setScrolled] = useState(false);
       const [showTop, setShowTop] = useState(false);
@@ -164,7 +164,7 @@
             <div className="hero__bg" aria-hidden="true"></div>
             <div className="container hero__inner">
               <div className="hero__copy" data-reveal>
-                <p className="eyebrow">Portfolio · {new Date().getFullYear()}</p>
+                <p className="eyebrow">portfolio · {new Date().getFullYear()}</p>
                 <h1 className="hero__title">Hi, I'm <span className="accent">Mahip</span>.</h1>
                 <p className="hero__tagline">{data.tagline}</p>
                 <p className="hero__sub">Building thoughtful software at the intersection of full-stack engineering, data, and applied AI.</p>
@@ -280,7 +280,7 @@
       );
     }
 
-    ReactDOM.createRoot(document.getElementById("root")).render(<Portfolio />);
+    ReactDOM.createRoot(document.getElementById("root")).render(<portfolio />);
   </script>
 
   <style>
