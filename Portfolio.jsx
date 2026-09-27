@@ -24,10 +24,10 @@ const data = {
     "I'm a graduate student in Computer Science at Texas A&M University–Corpus Christi with hands-on experience across full-stack web development, data engineering, and applied AI. I enjoy turning messy problems into clean, well-architected systems — from React-based production websites to RAG-powered campus assistants and IoT irrigation prototypes. I care deeply about reliability, thoughtful UX, and writing software that's a pleasure to maintain.",
   experience: [
     {
-      role: "Graduate Assistant",
+      role: "Graduate Assistant & Peer Tutor",
       org: "Texas A&M University–Corpus Christi · Math Learning Center",
       location: "Corpus Christi, TX",
-      dates: "Jan 2026 – Present",
+      dates: "Aug 2025 – May 2026",
       bullets: [
         "Deliver structured academic support and guide students through problem-solving methods across multiple math courses.",
         "Manage tutoring operations, schedules, and documentation, supporting 100+ student interactions efficiently.",
@@ -44,10 +44,10 @@ const data = {
       ],
     },
     {
-      role: "Web Developer",
+      role: "Full Stack Software Developer(Full Time)",
       org: "Sync Web Solution",
       location: "Remote",
-      dates: "Aug 2023 – Jul 2024",
+      dates: "Jan 2023 – Jul 2024",
       bullets: [
         "Built a full-stack production website using React.js and MongoDB.",
         "Improved UI responsiveness, backend performance, and security while deploying hosting pipelines.",
@@ -64,7 +64,7 @@ const data = {
       ],
     },
     {
-      role: "Software Intern",
+      role: "Full Stack Software Intern",
       org: "Redspark",
       location: "Vadodara, India",
       dates: "Dec 2021 – Jan 2022",
@@ -114,6 +114,12 @@ const data = {
       blurb:
         "Real-time irrigation monitoring system using soil moisture sensors and microcontrollers; sensor-driven logic improves water efficiency.",
       tech: ["Arduino Nano", "NodeMCU", "Embedded C", "IoT"],
+    },
+    {
+      name: "Resilient-Container-Security-Compliance-Engine",
+      blurb:
+        "Built the distributed cache module for a container security engine, implementing SHA-256 layer hashing, consistent hashing routing across cache nodes, and a thread-safe LRU eviction policy — achieving a 99.9% reduction in redundant Trivy scan latency on repeated image deployments.",
+      tech: ["Trivy Scan", "Docker", "SHA-256 layer hashing"],
     },
   ],
 };
